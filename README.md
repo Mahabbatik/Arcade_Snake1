@@ -50,3 +50,4 @@
 
     $ node snake.js
 
+[![asciicast](https://asciinema.org)](https://asciinema.org/a/pvLz1mD400JmOtqW)
