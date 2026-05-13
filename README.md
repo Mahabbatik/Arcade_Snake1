@@ -34,7 +34,7 @@
 
  Находясь этой директории напишите команду для клонирования в терминале:
 
-    $ git clone git@github.com:Mahabbatik/Arcade_Snake1.git
+    git clone git@github.com:Mahabbatik/Arcade_Snake1.git
 
 2. У вас появиться 2 файла:
     snake.js
@@ -42,12 +42,12 @@
 
  Убедитесь, что Node.js установлен:
 
-    $ node --version
+    node --version
 
 ### Запуск
 
  В терминале в котором вы клонировали напишите:
 
-    $ node snake.js
+    node snake.js
 
 [![asciicast](https://asciinema.org)](https://asciinema.org/a/pvLz1mD400JmOtqW)
