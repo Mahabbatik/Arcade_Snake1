@@ -107,7 +107,7 @@ function drawField() {
     const field = Array(CONFIG.height).fill(null)
         .map(() => Array(CONFIG.width).fill(SYMBOLS.empty));
     
-    // Размещаем змею на поле
+    // Размещает змею на поле
     gameState.snake.forEach((segment, index) => {
         if (index === 0) {
             field[segment.y][segment.x] = SYMBOLS.snakeHead;
@@ -116,10 +116,10 @@ function drawField() {
         }
     });
     
-    // Размещаем еду
+    // Размещает еду
     field[gameState.food.y][gameState.food.x] = SYMBOLS.food;
     
-    // Формируем строки вывода
+    // Формирует строки вывода
     let output = '';
     
     // Верхняя граница
